@@ -5,11 +5,13 @@
  */
 package org.nbpayara.demo.beans;
 
+import java.io.Serializable;
+
 /**
  *
  * @author boris.heithecker
  */
-public class Message {
+public class Message implements Serializable {
 
     private String text;
     private String user;
