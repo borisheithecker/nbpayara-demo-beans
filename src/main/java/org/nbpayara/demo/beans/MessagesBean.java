@@ -15,6 +15,10 @@ public interface MessagesBean {
 
     public List<Message> getMessages();
     
-    public void postMessage(String message);
+    public void postMessage(Message message);
+
+    public boolean login(String username);
+
+    public void disconnect(String username);
 
 }

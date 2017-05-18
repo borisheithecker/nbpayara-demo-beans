@@ -44,8 +44,8 @@ public class Message implements Serializable {
         return this;
     }
 
-    public long getTime() {
-        return time;
+    public long getTime() { 
+        return time; 
     }
 
     public void setTime(long time) {
